@@ -1,0 +1,9 @@
+{
+	"name": "azdatafactversioncontrol",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "380abf62-1b7a-452f-acd4-b3b50dc64c11",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}

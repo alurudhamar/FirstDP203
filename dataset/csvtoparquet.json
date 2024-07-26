@@ -1,0 +1,21 @@
+{
+	"name": "csvtoparquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "taxiRides.parquet",
+				"folderPath": "Output",
+				"fileSystem": "taxiridesdp23"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
